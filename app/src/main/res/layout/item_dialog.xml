@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="300dp"
+        android:padding="20dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:gravity="center"
+            android:background="@color/black"
+            android:text="Here are Some Category"
+            android:textSize="20dp"
+            android:textColor="@color/white"/>
+
+        <RadioGroup
+            android:id="@+id/game_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/logic_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logic"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+
+            <RadioButton
+                android:id="@+id/racing_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Racing"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+
+            <RadioButton
+                android:id="@+id/action_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Action"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+
+
+            <RadioButton
+                android:id="@+id/cooking_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cooking"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+
+            <RadioButton
+                android:id="@+id/car_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Education"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+
+            <RadioButton
+                android:id="@+id/puzzle_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sports"
+                android:textColor="@color/black"
+                android:textSize="15dp"/>
+        </RadioGroup>
+
+
+
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+            android:textColor="@color/white"
+            android:backgroundTint="#000000"/>
+
+    </LinearLayout>
+
+</LinearLayout>
